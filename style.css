@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Carter+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+    font-family: "Architects Daughter";
+    font-size: 24px;
+}
+
+h1{ margin-top: 1rem;
+    text-align: center;
+    font-family: "Carter One";
+    font-size: 3rem;
+    word-spacing: 0.04rem;
+}
+
+.main-container {
+    width: 95%;
+    margin: auto;
+}
+
+.container1{
+    margin-left: 5%;
+    margin: auto;
+    justify-content: center;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3 {
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg {
+   color: gray;
+}
+
+#check-icon {
+   position: absolute;
+   right: 14%;
+   top: 4%;
+}
+
+#x-icon {
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
